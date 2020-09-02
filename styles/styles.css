@@ -1,3 +1,6 @@
+html{
+    height: 100%;
+}
 body {
     padding: 0; margin: 0;
     height: 100%;
@@ -9,8 +12,7 @@ header{
     position: relative;
     height: 47px;
     font-size: 13px;
-    top: 0; left: 0; right: 0; width: 100%;   
-    
+    top: 0; left: 0; right: 0; width: 100%;       
 }
     header nav{
         position: relative;
