@@ -5,24 +5,27 @@ body {
     padding: 0; margin: 0;
     height: 100%;
     background: #fff;
-    font-family: arial, sans-serif; color: #222;;
+    font-family: arial, sans-serif; color: #222;
     box-sizing: border-box;
+    
 }
 header{
     position: relative;
     height: 47px;
     font-size: 13px;
-    top: 0; left: 0; right: 0; width: 100%;       
+    top: 0; left: 0; right: 0; width: 100%;
+          
 }
     header nav{
         position: relative;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         min-width: 220px;
         line-height: normal;
         top: 15px;
-    }
+        width: 100%;
+        }
         header nav div{
             display: flex;
             margin-right: 15px;
@@ -42,14 +45,15 @@ header{
                 display: flex; justify-content: center; align-items: center;
             }
                 #apps2{
-                    width: 32px;
-                    height: 32px;
+                    width: 20px;
+                    height: 19px;
                     background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
-                    background-position: -132px -38px;
+                    background-position: -138px -44px;
                   }
         #login{
             position: relative;
-            background: -moz-linear-gradient(top,#4387fd,#4683ea);
+            background: #4387fd;
+                background: -moz-linear-gradient(top,#4387fd,#4683ea);
             display: inline-block;
             line-height: 30px;
             width: 70px;
@@ -64,7 +68,7 @@ header{
     
     height: 233px;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
 }
     .logo-image{
         padding-top: 10px;
